@@ -6,8 +6,8 @@ import MyGallery from "./Pages/MyGallary";
 function App() {
   return (
     <div>
-      {/*<InkyEngine />*/}
-      <MyGallery />
+      <InkyEngine />
+      {/* <MyGallery />*/}
     </div>
   );
 }
