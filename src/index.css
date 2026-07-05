@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add this custom media query for phone landscape */
+@media (max-height: 450px) and (orientation: landscape) {
+  .left-sidebar-landscape button {
+    width: 2.5rem; /* 40px */
+    height: 2.5rem; /* 40px */
+  }
+  .left-sidebar-landscape button svg {
+    width: 15px;
+    height: 15px;
+  }
+}
